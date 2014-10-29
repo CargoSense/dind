@@ -2,6 +2,8 @@
 
 This recipe lets you run Docker within Docker.
 
+It was forked from jpetazzo/dind (to sit on Ubuntu 14.10 vs 14.04).
+
 ![Inception's Spinning Top](spintop.jpg)
 
 There is only one requirement: your Docker version should support the

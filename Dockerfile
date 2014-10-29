@@ -1,5 +1,5 @@
-FROM ubuntu:14.04
-MAINTAINER jerome.petazzoni@docker.com
+FROM ubuntu:utopic
+MAINTAINER dev@cargosense.com
 
 # Let's start with some basic stuff.
 RUN apt-get update -qq
@@ -19,4 +19,3 @@ RUN chmod +x /usr/local/bin/wrapdocker
 # Define additional metadata for our image.
 VOLUME /var/lib/docker
 CMD ["wrapdocker"]
-
